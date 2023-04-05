@@ -1,0 +1,202 @@
+*,::before, ::after
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #f1f1f1;
+}
+
+/* nav */
+nav
+{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 15px  black;
+}
+
+.ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.ul .li
+{
+    list-style-type: none;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.li2
+{
+    margin-left: auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000;
+    margin: 0 20px;
+    font-size: 25px;
+}
+
+.catering
+{
+    width: 100%;
+    height: 700px;
+    background-image: url(./IMG/hamburger.jpg);
+}
+
+.catering p
+{
+    font-size: 30px;
+    color: #6b6868;
+    padding: 640px 0 60px 20px;
+}
+
+.imt1
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.imt1 .t1
+{
+    width: 30%;
+    height: auto;
+}
+
+.imt1,.t1
+{
+    margin: 75px 30px;
+}
+
+.t1
+{
+    line-height: 25px;
+    text-align: justify;
+}
+
+.t1 h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+.t1 h2
+{
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 0 15px 0;
+}
+
+.imt2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.imt2 .t2
+{
+    width: 40%;
+    height: auto;
+}
+
+.imt2,.t2
+{
+    margin: 75px 30px;
+}
+
+.t1
+{
+    text-align: justify;
+}
+
+.t2 h1
+{
+    text-align: center;
+}
+
+.t2 p
+{
+   margin: 20px 0px;
+}
+
+.t2 h2
+{
+    margin-top: 50px;
+}
+
+/* formulair */
+
+.fin
+{
+    height: auto;
+    width: 83%;
+    margin: 50px 125px;
+}
+
+.fin p
+{
+    margin: 25px 0px;
+}
+
+.form
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form input
+{
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #aaa;
+    color: #666;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form .button
+{
+    display: block;
+    width: auto;
+    padding: 15px 25px;
+    border: 3px solid rgb(144,144,144);
+    border-radius: 9999px;
+    background-image: linear-gradient(to right , transparent 50%, rgb(65,65,65) 50%, rgb(134,134,134));
+    background-size: 200%;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.form .button:hover
+{
+    color: #fff;
+    background-position: 100%;
+    border: 3px solid #fff;
+}
+
+.form input:hover
+{
+    border: solid 1px black;
+
+}
+

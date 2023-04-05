@@ -1,0 +1,144 @@
+*,::before, ::after
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-image: url(./image/benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: lato;
+}
+
+.moi
+{
+    width: 500px;
+    height: auto;
+    margin: 100px 430px;
+    border: 1px solid black;
+    padding: 50px 90px;
+    background-color: rgba(255, 255, 255, 0.283);
+    border-radius: 10px;
+    /* pour la boite de mon formulair */
+
+}
+
+.moi h1
+{
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    /* pour mon h1 */
+}
+
+.form input
+{
+    width: 100%;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(18, 18, 19, 0.829);
+    /* pour tous mes input */
+    
+}
+
+.form label
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+    /* pour les label */
+}
+
+.fil input
+{
+    margin: 2px 0px 12px 0px;
+    cursor: pointer;
+}
+
+.ho
+{
+    margin: 0px 0px 0px 130px;
+}
+
+.btn input
+{
+    position: relative;
+    left: 70px;
+    height: 40px;
+    width: 190px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    background-color: rgb(154, 154, 242);
+    cursor: pointer;
+    box-shadow:  0 6px  rgb(48, 48, 85);
+    border-radius: 99999px; 
+    /* pour styliser mes boutons */
+    
+
+}
+
+.btn input:hover
+{
+    position: relative;
+    top: 2px;
+    box-shadow:  0 4px rgb(89, 89, 194);
+        /* j'ai utilisé ts ces codes pour faire une animation pour mes boutons */
+
+}
+
+.btn input:active
+{
+    box-shadow: 0 0 rgb(154, 154, 242); 
+    background-color: white;
+    top: 4px;
+        /* j'ai utilisé ts ces codes pour faire une animation pour mes boutons */
+
+}
+
+.form2 input
+{
+    position: relative;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    left: -35px;
+    border-radius: 99999px;
+    height: 40px;
+    padding: 0px 20px;
+    background-color: rgba(250, 251, 252, 0.111);
+        /* j'ai utilisé ts ces codes pour faire une animation pour mes boutons */
+
+}
+
+.form2 input:hover
+{
+    position: relative;
+    top: 2px;
+    box-shadow:  0 4px rgb(55, 55, 56);
+        /* j'ai utilisé ts ces codes pour faire une animation pour mes boutons */
+
+}
+
+.form2 input:active
+{
+    box-shadow: 0 0 rgb(154, 154, 242); 
+
+    background-color: white;
+    top: 4px;
+    /* j'ai utilisé ts ces codes pour faire une animation pour mes boutons */
+
+}
+
+
+
+   
